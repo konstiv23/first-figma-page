@@ -1,0 +1,25 @@
+.instagram-handle-container {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  text-decoration: none;
+}
+
+.instagram-handle {
+  width: 385px;
+  height: 84px;
+  background-color: #3c91df;
+  border-radius: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.instagram-handle__text {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
