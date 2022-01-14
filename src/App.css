@@ -1,3 +1,8 @@
+.App {
+  background-color: #ddd;
+  height: 100vh;
+}
+
 .instagram-handle-container {
   position: absolute;
   top: 50px;
@@ -14,6 +19,8 @@
   align-items: center;
   justify-content: center;
   gap: 12px;
+  box-shadow: 5px 20px 40px rgba(60, 145, 223, 0.24);
+  border-radius: 28px;
 }
 
 .instagram-handle__text {
@@ -22,4 +29,89 @@
   font-size: 30px;
   font-weight: 500;
   letter-spacing: 0.04em;
+}
+
+.blurb-container {
+  position: absolute;
+  left: 60px;
+  bottom: 60px;
+  width: 656px;
+  height: 638px;
+
+  padding: 80px 64px;
+  box-sizing: border-box;
+}
+
+.blurb {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  background-color: white;
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: 0px 4px 168px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(50px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 50px;
+}
+
+.blurb__header {
+  margin: 0;
+  width: 528px;
+  height: 176px;
+  left: 64px;
+  top: 80px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 110%;
+  /* or 88px */
+
+  color: #1e1e1e;
+}
+
+.blurb__subtitle-container {
+  left: 64px;
+  top: 296px;
+}
+
+.blurb__subtitle {
+  position: static;
+  width: 445px;
+  height: 126px;
+  margin: 0;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 180%;
+  /* or 63px */
+
+  color: #1e1e1e;
+
+  opacity: 0.6;
+}
+
+.download-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 368px;
+  height: 96px;
+
+  background: #e58411;
+  box-shadow: 5px 20px 40px rgba(229, 132, 17, 0.24);
+  border-radius: 28px;
+
+  text-decoration: none;
+  color: white;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
 }
