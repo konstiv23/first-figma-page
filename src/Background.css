@@ -12,6 +12,7 @@
   width: 2960.255px;
   height: 3936.557px;
   display: flex;
+  justify-content: center;
   gap: 33px;
   transform: rotate(-17.5deg);
   margin-left: 386px;
