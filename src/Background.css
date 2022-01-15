@@ -36,3 +36,7 @@
   width: 447.24px;
   height: 1746.09px;
 }
+
+.screenshot_with-shadow {
+  box-shadow: -26px 52px 132px 11px rgba(6, 34, 75, 0.25);
+}

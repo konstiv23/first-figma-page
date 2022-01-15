@@ -12,7 +12,11 @@ function Background() {
         />
         <div className="column-2">
           <img className="screenshot" src={screenshot} alt="Design sample" />
-          <img className="screenshot" src={screenshot} alt="Design sample" />
+          <img
+            className="screenshot screenshot_with-shadow"
+            src={screenshot}
+            alt="Design sample"
+          />
         </div>
         <img
           className="column-3 screenshot"
