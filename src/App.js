@@ -1,6 +1,7 @@
 import "./App.css";
 import instagramIcon from "./instagramIcon.svg";
 import freeTooltip from "./freeTooltip.svg";
+import Background from "./Background";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           </a>
         </div>
       </div>
+      <Background />
     </div>
   );
 }
