@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/first-figma-page/static/css/main.f29e2246.css",
+    "main.js": "/first-figma-page/static/js/main.de32115e.js",
+    "static/js/787.4ec5ac61.chunk.js": "/first-figma-page/static/js/787.4ec5ac61.chunk.js",
+    "static/media/screenshot.png": "/first-figma-page/static/media/screenshot.b269dd6e9a15b4a18405.png",
+    "static/media/instagramIcon.svg": "/first-figma-page/static/media/instagramIcon.d0298d638efb5f1f1e14d1be20a49906.svg",
+    "static/media/freeTooltip.svg": "/first-figma-page/static/media/freeTooltip.ebf3d5f2c0c055e77e32c3109cf8a39c.svg",
+    "index.html": "/first-figma-page/index.html",
+    "main.f29e2246.css.map": "/first-figma-page/static/css/main.f29e2246.css.map",
+    "main.de32115e.js.map": "/first-figma-page/static/js/main.de32115e.js.map",
+    "787.4ec5ac61.chunk.js.map": "/first-figma-page/static/js/787.4ec5ac61.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f29e2246.css",
+    "static/js/main.de32115e.js"
+  ]
+}
